@@ -30,56 +30,23 @@ docker run -p 5000:5000 api-noticias
 
 URL: /noticias
 Método: POST
-Corpo da Requisição
-{
-  "titulo": "Título da Notícia",
-  "descricao": "Descrição da Notícia"
-}
 
 Resposta de Sucesso:
-
 Código: 201
-Corpo:
-    {
-    
-      "id": "unique_id",
-      "titulo": "Título da Notícia",
-      "descricao": "Descrição da Notícia"
-      
-    }
 
 ## Listar Notícias
 URL: /noticias
 Método: GET
 Resposta de Sucesso:
 Código: 200
-Corpo:
-    [
-        {
-            "id": "unique_id",
-            "titulo": "Título da Notícia",
-            "descricao": "Descrição da Notícia"
-        }
-    ]
 
 ## Atualizar Notícia
 
 URL: /noticias/:id
 Método: PUT
-Corpo da Requisição:
-    {
-        "titulo": "Título Atualizado",
-        "descricao": "Descrição Atualizada"        
-    }
 
 Resposta de Sucesso:
 Código: 200
-Corpo:
-    {    
-        "id": "unique_id",
-        "titulo": "Título Atualizado",
-        "descricao": "Descrição Atualizada"    
-    }
 
 ## Deletar Notícia
 URL: /noticias/:id
