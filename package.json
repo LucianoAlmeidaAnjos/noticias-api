@@ -1,0 +1,24 @@
+{
+  "name": "noticias-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.4"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "cypress": "^13.12.0",
+    "mocha": "^10.5.2",
+    "supertest": "^7.0.0"
+  }
+}
