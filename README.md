@@ -40,6 +40,7 @@ Código: 201
 ## Listar Notícias
 URL: /noticias
 Método: GET
+
 Resposta de Sucesso:
 Código: 200
 
@@ -54,6 +55,7 @@ Código: 200
 ## Deletar Notícia
 URL: /noticias/:id
 Método: DELETE
+
 Resposta de Sucesso:
 Código: 204
 
