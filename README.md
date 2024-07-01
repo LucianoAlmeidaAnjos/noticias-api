@@ -4,6 +4,7 @@ API RESTful em Node.js para gerenciar notícias.
 
 ## Requisitos
 Node.js (versão 14 ou superior)
+
 npm (versão 6 ou superior)
 
 ## Instalação
