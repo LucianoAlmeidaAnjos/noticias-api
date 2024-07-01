@@ -41,9 +41,11 @@ Resposta de Sucesso:
 Código: 201
 Corpo:
     {
-    "id": "unique_id",
-    "titulo": "Título da Notícia",
-    "descricao": "Descrição da Notícia"
+    
+      "id": "unique_id",
+      "titulo": "Título da Notícia",
+      "descricao": "Descrição da Notícia"
+      
     }
 
 ## Listar Notícias
@@ -53,11 +55,15 @@ Resposta de Sucesso:
 Código: 200
 Corpo:
     [
+    
         {
+        
             "id": "unique_id",
             "titulo": "Título da Notícia",
             "descricao": "Descrição da Notícia"
+            
         }
+        
     ]
 
 ## Atualizar Notícia
@@ -66,17 +72,21 @@ URL: /noticias/:id
 Método: PUT
 Corpo da Requisição:
     {
+    
         "titulo": "Título Atualizado",
         "descricao": "Descrição Atualizada"
+        
     }
 
 Resposta de Sucesso:
 Código: 200
 Corpo:
     {
+    
         "id": "unique_id",
         "titulo": "Título Atualizado",
         "descricao": "Descrição Atualizada"
+        
     }
 
 ## Deletar Notícia
