@@ -12,7 +12,9 @@ npm (versão 6 ou superior)
 Clone o repositório e instale as dependências:
 
 git clone https://github.com/LucianoAlmeidaAnjos/noticias-api
+
 cd noticias-api
+
 npm install
 
 ## Executar Localmente
@@ -22,6 +24,7 @@ npm start
 ## Executar com o Docker
 
 docker build -t api-noticias .
+
 docker run -p 5000:5000 api-noticias
 
 # Endpoints da API
